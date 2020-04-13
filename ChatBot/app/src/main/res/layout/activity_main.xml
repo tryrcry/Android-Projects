@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#222831">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="15dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:background="#eeeeee" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="15dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/view1"
+            android:background="#00adb5"
+            />
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="15dp"
+            android:layout_height="210dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/view2"
+            android:background="#eeeeee" />
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="15dp"
+            android:layout_height="180dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/view3"
+            android:background="#00adb5" />
+
+        <View
+            android:id="@+id/view5"
+            android:layout_width="15dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/view4"
+            android:background="#393E46" />
+
+        <View
+            android:id="@+id/view6"
+            android:layout_width="15dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/view5"
+            android:background="#eeeeee" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtHead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/baloo"
+            android:text="Chatbot"
+            android:textColor="#eeeeee"
+            android:textSize="60sp" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+        <TextView
+            android:id="@+id/txtSlogan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="cursive"
+            android:text="try R cry"
+            android:textColor="#eeeeee"
+            android:textSize="30sp"
+            android:layout_marginBottom="10dp"/>
+    </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
